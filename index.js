@@ -2,7 +2,7 @@
 let distInBlocks;
 let distInFeet;
 let fbLocation = 42;
-const fare = .02;
+const price = .02;
 
 function distanceFromHqInBlocks(cust_location){
 
@@ -21,6 +21,12 @@ function distanceTravelledInFeet(start, end){
 
 function calculatesFarePrice(start, end){
   distance = distanceTravelledInFeet(start, end);
+
+  if (distance <= 400){
+    return 0
+  } else {
+    fare = (distance - 400) * price
+  }
 
   // if distance
 }
