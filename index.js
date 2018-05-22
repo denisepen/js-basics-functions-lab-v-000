@@ -22,5 +22,5 @@ function distanceTravelledInFeet(start, end){
 function calculatesFarePrice(start, end){
   distance = distanceTravelledInFeet(start, end);
 
-  if distance
+  // if distance
 }
