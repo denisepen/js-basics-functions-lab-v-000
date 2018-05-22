@@ -2,7 +2,7 @@
 let distInBlocks;
 let distInFeet;
 let fbLocation = 42;
-let fare = .02
+let fare = .02;
 function distanceFromHqInBlocks(cust_location){
 
   distInBlocks = Math.abs(fbLocation - cust_location);
@@ -21,5 +21,5 @@ function distanceTravelledInFeet(start, end){
 function calculatesFarePrice(start, end){
   distance = distanceTravelledInFeet(start, end);
 
-  if distance 
+  if distance
 }
