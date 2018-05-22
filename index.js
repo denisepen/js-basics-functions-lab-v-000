@@ -1,5 +1,6 @@
 // Code your solution in this file!
 let distInBlocks;
+let distInFeet;
 let fbLocation = 42;
 function distanceFromHqInBlocks(cust_location){
 
@@ -8,5 +9,6 @@ function distanceFromHqInBlocks(cust_location){
 }
 
 function distanceFromHqInFeet(location){
-  return distInBlocks(location) *264;
+  distInFeet =  distInBlocks(location) *264;
+  return  distInFeet
 }
