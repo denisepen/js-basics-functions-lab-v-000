@@ -2,7 +2,7 @@
 let distInBlocks;
 let distInFeet;
 let fbLocation = 42;
-const fare = .02;
+// const fare = .02;
 
 function distanceFromHqInBlocks(cust_location){
 
@@ -24,4 +24,3 @@ function calculatesFarePrice(start, end){
 
   if distance
 }
-
