@@ -7,6 +7,6 @@ function distanceFromHqInBlocks(cust_location){
   return distInBlocks;
 }
 
-distanceFromHqInFeet(distInBlocks){
-  return (distInBlocks *264)
+distanceFromHqInFeet(location){
+  return distInBlocks(location) *264;
 }
